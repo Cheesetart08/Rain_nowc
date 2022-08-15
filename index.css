@@ -1,0 +1,103 @@
+<style>
+html {
+        touch-action: manipulation;
+      }
+
+
+      #map {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .leaflet-base-pane {
+      filter:grayscale(50%);    
+      }
+
+      #bottom_box {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        z-index: 500;
+      }
+
+
+     #text{
+        position: absolute;
+        background:#007d7d;
+        font-family: "BIZ UDGothic";
+        line-height: 1.5;
+        text-shadow: 
+         2px 2px 2px #000, 
+        -2px 2px 2px #000, 
+         2px -2px 2px #000,
+        -2px 2px 2px #000  ;
+        font-size: 45px;
+        color: #ffffff;
+        top: 10px;
+        left: 350px;
+        margin: 0;
+        padding: 0;
+        z-Index: 500;
+      }
+
+      #time {
+        position: absolute;
+        font-family: "Roboto","koruri";
+        font-size: 35px;
+        color: #fff;
+        top: 35px;
+        left: 375px;
+        z-index: 400;
+        font-weight: 500;
+        background:#000;
+        border-radius: 0px 0px 15px 15px;
+        padding: 10x;
+      }
+    #class1 {
+      position: absolute;
+        font-family: "Roboto","koruri";
+        bottom: 20px;
+        right: 5px;
+        width: 100px ;
+        height: 245px ;
+        z-index: 500;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+     #nuri {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        zIndex: 1;
+    background-color: #111155;
+}
+      .sousa_btn {
+        position: absolute;
+        bottom: 5px;
+        left: 125px;
+        z-index: 500;
+        touch-action: manipulation;
+      }
+
+      #aa {
+        display: inline-flex;
+        align-items: start;
+        position: absolute;
+        bottom: 5px;
+        left: 170px;
+        z-index: 800;
+      }
+
+      .leaflet-radar-pane {
+        filter: drop-shadow(0px 0px 2px #000) brightness(1.0);
+      }/
+</style>
